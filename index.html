@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="/img/about.png" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Herbary</title>
+</head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-leaf-line nav__logo-icon"></i> Herbary
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item dropdown">
+                            <a href="#products" class="nav__link desktop-link">Products</a>
+                            <i class="bx bx-chevron-down"></i>
+                            <div class="dropdown-content" style="border: 1px solid black;">
+                                <ul>
+                                <li><a href="pages/succelent.html" class="nav__link">Succulents</a></li>
+                                <li><a href="/pages/flowering.html" class="nav__link">Flowering Plants</a></li>
+                                <li><a href="/pages/tropical.html" class="nav__link">Tropical Plants</a></li>
+                                <li><a href="/pages/fern.html" class="nav__link">Ferns</a></li>
+                                <li><a href="/pages/wait.html" class="nav__link">Cacti</a></li>
+                                <li><a href="/pages/wait.html" class="nav__link">Herbs</a></li>
+                                <li><a href="/pages/wait.html" class="nav__link">Palm</a></li>
+                                <li><a href="/pages/wait.html" class="nav__link">Bamboo</a></li>
+                                <li><a href="/pages/wait.html" class="nav__link">Climbing Plants</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faqs" class="nav__link">FAQs</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact Us</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="/pages/signinup.html" class="nav__link signin">Sign in / Sign up</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img style="width: 150%;" src="/img/home2-removebg-preview.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Transforming Spaces with Greenery
+                        </h1>
+                        <p class="home__description">
+                            Elevate your surroundings with a touch of natural beauty
+                            to spark inspiration, ignite your creativity, and breathe new life into your space.
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            Explore
+                            <img style="width: 30px;" src="/img/maple-leaf.png" alt="plant">
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">Follow Us</span>
+
+                        <div class="home__social-links">
+                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="/img/about.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Who We Are <p style="font-size: 20px ; font-weight: 50;">Your Source for Extraordinary Greenery</p>
+                            & Why Choose Us
+                        </h2>
+
+                        <p class="about__description">
+                            We have over 8000+ unbiased reviews and our customers 
+                            trust our plant process and delivery service every time
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <img style="width: 20px;" src="/img/leaves.png" alt="plant">
+                                We always deliver on time.
+                            </p>
+                            <p class="about__details-description">
+                                <img style="width: 20px;" src="/img/leaves.png" alt="plant">
+                                We give you guides to care for your plants.
+                            </p>
+                            <p class="about__details-description">
+                                <img style="width: 20px;" src="/img/leaves.png" alt="plant">
+                                100% money back guaranteed.
+                            </p>
+                        </div>
+
+                        <a href="#" class="button--link button--flex">
+                            Shop Now <img style="width: 30px;" src="/img/maple-leaf.png" alt="plant">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== STEPS ====================-->
+            <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        Steps to start your <br> plants off right
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">Choose Plant</h3>
+                            <p class="steps__card-description">
+                                We have several varieties plants you can choose from.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Place an order</h3>
+                            <p class="steps__card-description">
+                                Once your order is set, we move to the next step which is the shipping.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Get plants delivered</h3>
+                            <p class="steps__card-description">
+                                Our delivery process is easy, you receive the plant direct to your door.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    Our Products
+                </h2>
+                <p class="product__description">
+                    Here are some selected plants
+                </p>
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+                        <img src="/img/product1.png" alt="" class="product__img">
+                        <h3 class="product__title">Cacti Plant</h3>
+                        <span class="product__price">&#8377; 129</span>
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img style="height: 200px;" src="/img/product7.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Bird's Nest Fern</h3>
+                        <span class="product__price">&#8377; 199</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="/img/product3.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Aloe Vera Plant</h3>
+                        <span class="product__price">&#8377; 159</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="/img/product4.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Succulent Plant</h3>
+                        <span class="product__price">&#8377; 219</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="/img/product5.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Succulent Plant</h3>
+                        <span class="product__price">&#8377; 199</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img style="height: 200px;" src="/img/product8.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Camille Plant</h3>
+                        <span class="product__price">&#8377; 300</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== QUESTIONS ====================-->
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                    Some common questions <br> were often asked
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    My flowers are falling off or dying?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    What causes leaves to become pale?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    What causes brown crispy leaves?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    How do i choose a plant?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    How do I change the pots?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Why are gnats flying around my plant?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Plants are easy way to add color energy and transform your 
+                                    space but which planet is for you. Choosing the right plant.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Reach out to us today <br> via any of the given <br> information
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Call us for instant support</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +91-123456789
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Write us by mail</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    <a href="#" style="color:black;">herbaryforu@email.com</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Email</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Subject</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Message</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Send Message
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-leaf-line footer__logo-icon"></i> Herbary
+                    </a>
+
+                    <h3 class="footer__title">
+                        Subscribe to our newsletter <br> to stay update
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Enter your email" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                            Subscribe
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Address</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">1234 - ABCD</li>
+                        <li class="footer__information">XYZ City - 43210</li>
+                        <li class="footer__information">123-456-789</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+91-123456789</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        We accept all credit cards
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="/img/card1.png" alt="" class="footer__card">
+                        <img src="/img/card2.png" alt="" class="footer__card">
+                        <img src="/img/card3.png" alt="" class="footer__card">
+                        <img src="/img/card4.png" alt="" class="footer__card">
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Herbary. All rigths reserved</p>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="sscrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="script.js"></script>
+    </body>
+</html>
+

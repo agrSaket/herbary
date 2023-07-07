@@ -22,7 +22,7 @@ Welcome to Herbary, an online plant store where you can browse and purchase a wi
 
 Check out the live demo of the website [here](https://herbary.netlify.app/).
 
-![Herbary Screenshot](screenshot.png)
+![Herbary Screenshot](./img/webgif.gif)
 
 ## Built with
 
